@@ -68,26 +68,56 @@ include CMakeFiles/Chess.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chess.dir/flags.make
 
-CMakeFiles/Chess.dir/src/Piece.cpp.obj: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/src/Piece.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
-CMakeFiles/Chess.dir/src/Piece.cpp.obj: C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Piece.cpp
-CMakeFiles/Chess.dir/src/Piece.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/src/Piece.cpp.obj"
-	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/Piece.cpp.obj -MF CMakeFiles\Chess.dir\src\Piece.cpp.obj.d -o CMakeFiles\Chess.dir\src\Piece.cpp.obj -c C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Piece.cpp
+CMakeFiles/Chess.dir/src/Rook.cpp.obj: CMakeFiles/Chess.dir/flags.make
+CMakeFiles/Chess.dir/src/Rook.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
+CMakeFiles/Chess.dir/src/Rook.cpp.obj: C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Rook.cpp
+CMakeFiles/Chess.dir/src/Rook.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/src/Rook.cpp.obj"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/Rook.cpp.obj -MF CMakeFiles\Chess.dir\src\Rook.cpp.obj.d -o CMakeFiles\Chess.dir\src\Rook.cpp.obj -c C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Rook.cpp
 
-CMakeFiles/Chess.dir/src/Piece.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chess.dir/src/Piece.cpp.i"
-	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Piece.cpp > CMakeFiles\Chess.dir\src\Piece.cpp.i
+CMakeFiles/Chess.dir/src/Rook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chess.dir/src/Rook.cpp.i"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Rook.cpp > CMakeFiles\Chess.dir\src\Rook.cpp.i
 
-CMakeFiles/Chess.dir/src/Piece.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/src/Piece.cpp.s"
-	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Piece.cpp -o CMakeFiles\Chess.dir\src\Piece.cpp.s
+CMakeFiles/Chess.dir/src/Rook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/src/Rook.cpp.s"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Rook.cpp -o CMakeFiles\Chess.dir\src\Rook.cpp.s
+
+CMakeFiles/Chess.dir/src/Board.cpp.obj: CMakeFiles/Chess.dir/flags.make
+CMakeFiles/Chess.dir/src/Board.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
+CMakeFiles/Chess.dir/src/Board.cpp.obj: C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Board.cpp
+CMakeFiles/Chess.dir/src/Board.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chess.dir/src/Board.cpp.obj"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/Board.cpp.obj -MF CMakeFiles\Chess.dir\src\Board.cpp.obj.d -o CMakeFiles\Chess.dir\src\Board.cpp.obj -c C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Board.cpp
+
+CMakeFiles/Chess.dir/src/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chess.dir/src/Board.cpp.i"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Board.cpp > CMakeFiles\Chess.dir\src\Board.cpp.i
+
+CMakeFiles/Chess.dir/src/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/src/Board.cpp.s"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Board.cpp -o CMakeFiles\Chess.dir\src\Board.cpp.s
+
+CMakeFiles/Chess.dir/src/Knight.cpp.obj: CMakeFiles/Chess.dir/flags.make
+CMakeFiles/Chess.dir/src/Knight.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
+CMakeFiles/Chess.dir/src/Knight.cpp.obj: C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Knight.cpp
+CMakeFiles/Chess.dir/src/Knight.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chess.dir/src/Knight.cpp.obj"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/Knight.cpp.obj -MF CMakeFiles\Chess.dir\src\Knight.cpp.obj.d -o CMakeFiles\Chess.dir\src\Knight.cpp.obj -c C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Knight.cpp
+
+CMakeFiles/Chess.dir/src/Knight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chess.dir/src/Knight.cpp.i"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Knight.cpp > CMakeFiles\Chess.dir\src\Knight.cpp.i
+
+CMakeFiles/Chess.dir/src/Knight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/src/Knight.cpp.s"
+	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Knight.cpp -o CMakeFiles\Chess.dir\src\Knight.cpp.s
 
 CMakeFiles/Chess.dir/src/main.cpp.obj: CMakeFiles/Chess.dir/flags.make
 CMakeFiles/Chess.dir/src/main.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
 CMakeFiles/Chess.dir/src/main.cpp.obj: C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/main.cpp
 CMakeFiles/Chess.dir/src/main.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chess.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Chess.dir/src/main.cpp.obj"
 	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/main.cpp.obj -MF CMakeFiles\Chess.dir\src\main.cpp.obj.d -o CMakeFiles\Chess.dir\src\main.cpp.obj -c C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\main.cpp
 
 CMakeFiles/Chess.dir/src/main.cpp.i: cmake_force
@@ -102,7 +132,7 @@ CMakeFiles/Chess.dir/src/Chess.cpp.obj: CMakeFiles/Chess.dir/flags.make
 CMakeFiles/Chess.dir/src/Chess.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
 CMakeFiles/Chess.dir/src/Chess.cpp.obj: C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Chess.cpp
 CMakeFiles/Chess.dir/src/Chess.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chess.dir/src/Chess.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Chess.dir/src/Chess.cpp.obj"
 	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/Chess.cpp.obj -MF CMakeFiles\Chess.dir\src\Chess.cpp.obj.d -o CMakeFiles\Chess.dir\src\Chess.cpp.obj -c C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Chess.cpp
 
 CMakeFiles/Chess.dir/src/Chess.cpp.i: cmake_force
@@ -115,21 +145,25 @@ CMakeFiles/Chess.dir/src/Chess.cpp.s: cmake_force
 
 # Object files for target Chess
 Chess_OBJECTS = \
-"CMakeFiles/Chess.dir/src/Piece.cpp.obj" \
+"CMakeFiles/Chess.dir/src/Rook.cpp.obj" \
+"CMakeFiles/Chess.dir/src/Board.cpp.obj" \
+"CMakeFiles/Chess.dir/src/Knight.cpp.obj" \
 "CMakeFiles/Chess.dir/src/main.cpp.obj" \
 "CMakeFiles/Chess.dir/src/Chess.cpp.obj"
 
 # External object files for target Chess
 Chess_EXTERNAL_OBJECTS =
 
-Chess.exe: CMakeFiles/Chess.dir/src/Piece.cpp.obj
+Chess.exe: CMakeFiles/Chess.dir/src/Rook.cpp.obj
+Chess.exe: CMakeFiles/Chess.dir/src/Board.cpp.obj
+Chess.exe: CMakeFiles/Chess.dir/src/Knight.cpp.obj
 Chess.exe: CMakeFiles/Chess.dir/src/main.cpp.obj
 Chess.exe: CMakeFiles/Chess.dir/src/Chess.cpp.obj
 Chess.exe: CMakeFiles/Chess.dir/build.make
 Chess.exe: CMakeFiles/Chess.dir/linkLibs.rsp
 Chess.exe: CMakeFiles/Chess.dir/objects1.rsp
 Chess.exe: CMakeFiles/Chess.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Chess.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Chess.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Chess.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
