@@ -1,16 +1,16 @@
 //
-// Created by LIOR on 09/04/2025.
+// Created by LIOR on 10/04/2025.
 //
 
-#include "Knight.h"
+#include "King.h"
 
-bool Knight::isMoveLegal(int fromX, int fromY, int toX, int toY, const Board &board) const {
-    // Knight moves in an L-shape: 2 to one direction and 1 to the other
+bool King::isMoveLegal(int fromX, int fromY, int toX, int toY, const Board &board) const {
+    // King can move one square in any direction
     int dx = abs(toX - fromX);
     int dy = abs(toY - fromY);
 
     // Checks if the move is legal
-    if (!((dx == 2 && dy == 1) || (dx == 1 && dy == 2))) {
+    if (dx > 1 || dy > 1) {
         return false;
     }
 

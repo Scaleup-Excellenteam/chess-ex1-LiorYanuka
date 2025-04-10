@@ -1,31 +1,35 @@
 //
-// Created by LIOR on 09/04/2025.
+// Created by LIOR on 06/04/2025.
 //
 
 #ifndef BOARD_H
 #define BOARD_H
 
 #include "Piece.h"
-#include <vector>
 #include <memory>
 #include <string>
 #include <array>
 
 class Board {
 protected:
-    // Use a fixed-size 2D array instead of a vector of vectors
-    // This is a different implementation but still a matrix representation
+    // Matrix for saving the board with Piece class
     std::array<std::array<std::shared_ptr<Piece>, 8>, 8> chessMatrix;
-    
-    // Helper method to check if coordinates are within board bounds
+
+    // Checks if we are in bounds
     bool isInBounds(int x, int y) const;
 
 public:
-    Board(const std::string& layout);
-    Piece* getPiece(int x, int y) const;
+    // Constructor
+    Board(const std::string &layout);
+
+    // Gets a pointer to the piece
+    Piece *getPiece(int x, int y) const;
+
+    // Move the piece from (x1,y1) to (x2,y2)
     void movePiece(int fromX, int fromY, int toX, int toY);
+
+    // Checks if there is a check to the current player
     bool isInCheck(bool isWhite) const;
-    void printBoard() const;
 };
 
 

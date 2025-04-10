@@ -25,8 +25,15 @@ add_executable (Chess ""
         src/Board.cpp
         include/Knight.h
         src/Knight.cpp
+        include/King.h
+        src/King.cpp
+        include/Bishop.h
+        src/Bishop.cpp
+        include/Queen.h
+        src/Queen.cpp
+        include/Pawn.h
+        src/Pawn.cpp
 )
-
 
 add_subdirectory (include)
 add_subdirectory (src)

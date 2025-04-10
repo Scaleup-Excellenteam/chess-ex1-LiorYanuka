@@ -1,6 +1,6 @@
-CMakeFiles/Chess.dir/src/Rook.cpp.obj: \
- C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Rook.cpp \
- C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/include/Rook.h \
+CMakeFiles/Chess.dir/src/Bishop.cpp.obj: \
+ C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\src\Bishop.cpp \
+ C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/include/Bishop.h \
  C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/include/Piece.h \
  C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/include/Board.h \
  C:/Users/User/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \

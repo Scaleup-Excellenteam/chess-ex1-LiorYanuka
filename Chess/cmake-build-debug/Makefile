@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\LIOR\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\User\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\LIOR\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\User\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess
+CMAKE_SOURCE_DIR = C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\User\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:\Users\LIOR\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\User\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ Chess: cmake_check_build_system
 Chess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/build
 .PHONY : Chess/fast
+
+src/Bishop.obj: src/Bishop.cpp.obj
+.PHONY : src/Bishop.obj
+
+# target to build an object file
+src/Bishop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Bishop.cpp.obj
+.PHONY : src/Bishop.cpp.obj
+
+src/Bishop.i: src/Bishop.cpp.i
+.PHONY : src/Bishop.i
+
+# target to preprocess a source file
+src/Bishop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Bishop.cpp.i
+.PHONY : src/Bishop.cpp.i
+
+src/Bishop.s: src/Bishop.cpp.s
+.PHONY : src/Bishop.s
+
+# target to generate assembly for a file
+src/Bishop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Bishop.cpp.s
+.PHONY : src/Bishop.cpp.s
 
 src/Board.obj: src/Board.cpp.obj
 .PHONY : src/Board.obj
@@ -176,6 +200,30 @@ src/Chess.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Chess.cpp.s
 .PHONY : src/Chess.cpp.s
 
+src/King.obj: src/King.cpp.obj
+.PHONY : src/King.obj
+
+# target to build an object file
+src/King.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/King.cpp.obj
+.PHONY : src/King.cpp.obj
+
+src/King.i: src/King.cpp.i
+.PHONY : src/King.i
+
+# target to preprocess a source file
+src/King.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/King.cpp.i
+.PHONY : src/King.cpp.i
+
+src/King.s: src/King.cpp.s
+.PHONY : src/King.s
+
+# target to generate assembly for a file
+src/King.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/King.cpp.s
+.PHONY : src/King.cpp.s
+
 src/Knight.obj: src/Knight.cpp.obj
 .PHONY : src/Knight.obj
 
@@ -199,6 +247,54 @@ src/Knight.s: src/Knight.cpp.s
 src/Knight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Knight.cpp.s
 .PHONY : src/Knight.cpp.s
+
+src/Pawn.obj: src/Pawn.cpp.obj
+.PHONY : src/Pawn.obj
+
+# target to build an object file
+src/Pawn.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Pawn.cpp.obj
+.PHONY : src/Pawn.cpp.obj
+
+src/Pawn.i: src/Pawn.cpp.i
+.PHONY : src/Pawn.i
+
+# target to preprocess a source file
+src/Pawn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Pawn.cpp.i
+.PHONY : src/Pawn.cpp.i
+
+src/Pawn.s: src/Pawn.cpp.s
+.PHONY : src/Pawn.s
+
+# target to generate assembly for a file
+src/Pawn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Pawn.cpp.s
+.PHONY : src/Pawn.cpp.s
+
+src/Queen.obj: src/Queen.cpp.obj
+.PHONY : src/Queen.obj
+
+# target to build an object file
+src/Queen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Queen.cpp.obj
+.PHONY : src/Queen.cpp.obj
+
+src/Queen.i: src/Queen.cpp.i
+.PHONY : src/Queen.i
+
+# target to preprocess a source file
+src/Queen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Queen.cpp.i
+.PHONY : src/Queen.cpp.i
+
+src/Queen.s: src/Queen.cpp.s
+.PHONY : src/Queen.s
+
+# target to generate assembly for a file
+src/Queen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Queen.cpp.s
+.PHONY : src/Queen.cpp.s
 
 src/Rook.obj: src/Rook.cpp.obj
 .PHONY : src/Rook.obj
@@ -257,15 +353,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Chess
+	@echo ... src/Bishop.obj
+	@echo ... src/Bishop.i
+	@echo ... src/Bishop.s
 	@echo ... src/Board.obj
 	@echo ... src/Board.i
 	@echo ... src/Board.s
 	@echo ... src/Chess.obj
 	@echo ... src/Chess.i
 	@echo ... src/Chess.s
+	@echo ... src/King.obj
+	@echo ... src/King.i
+	@echo ... src/King.s
 	@echo ... src/Knight.obj
 	@echo ... src/Knight.i
 	@echo ... src/Knight.s
+	@echo ... src/Pawn.obj
+	@echo ... src/Pawn.i
+	@echo ... src/Pawn.s
+	@echo ... src/Queen.obj
+	@echo ... src/Queen.i
+	@echo ... src/Queen.s
 	@echo ... src/Rook.obj
 	@echo ... src/Rook.i
 	@echo ... src/Rook.s

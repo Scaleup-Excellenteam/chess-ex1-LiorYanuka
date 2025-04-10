@@ -1,4 +1,4 @@
-C:\Users\LIOR\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess -B C:\Users\LIOR\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug
+C:\Users\User\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess -B C:\Users\User\CLionProjects\AdvancedCPP\chess-ex1-LiorYanuka\Chess\cmake-build-debug
 -- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/cmake-build-debug
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/cmake-build-debug
