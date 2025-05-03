@@ -68,7 +68,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Chess::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Chess-Debug-05fc28f32141db2704a0.json",
+					"jsonFile" : "target-Chess-Debug-8c2741a3cc6adfd2a47a.json",
 					"name" : "Chess",
 					"projectIndex" : 0
 				}
@@ -78,8 +78,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/cmake-build-debug",
-		"source" : "C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess"
+		"build" : "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/cmake-build-debug",
+		"source" : "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess"
 	},
 	"version" : 
 	{
