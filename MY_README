@@ -1,0 +1,17 @@
+Custom Exceptions:
+
+    1. IllegalMoveException
+
+    This exception is thrown when a player attempts to make an illegal move. This includes several scenarios:
+
+    - Invalid move format
+    - No piece exists at the source position
+    - Attempting to move an opponent's piece
+    - Attempting to move to a position occupied by your own piece
+    - The move doesn't follow the rules for the specific piece
+
+    2. CheckmateException
+
+    This exception is thrown when a player attempts to make a move that would result in their king being in check (or checkmate).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
