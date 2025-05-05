@@ -20,6 +20,7 @@ private:
     static const int THREATENS_STRONGER_PIECE = 50;
     static const int UNDER_THREAT_BY_WEAKER = -70;
 
+    int getPieceValue(char piece) const;
     int evaluateMove(int fromX, int fromY, int toX, int toY, int depth, bool isWhiteTurn);
 
     bool isPieceThreatenedByWeaker(int x, int y, Board &board, bool isWhite);
@@ -31,10 +32,8 @@ private:
 public:
     MoveRecommender(Board &board, int maxDepth = 2);
 
-    // Calculates and gets the top recommended moves
     void calculateMoves(bool isWhiteTurn, int numMoves = 5);
 
-    // Get the top moves
     const PriorityQueue<Move> &getTopMoves() const;
 
     friend std::ostream &operator<<(std::ostream &os, const MoveRecommender &recommender);

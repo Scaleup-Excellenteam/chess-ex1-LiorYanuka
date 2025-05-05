@@ -7,17 +7,26 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
+#include <sstream>
 
 int main() {
 	string board = "RNBQKBNRPPPPPPPP################################pppppppprnbqkbnr";
-	// string board = "RNBQKBNR################################################rnbqkbnr";
 	Chess a(board);
 	int codeResponse = 0;
-	int currentPlayer = 1; // 1 for white (uppercase), 2 for black (lowercase)
-	Board chessBoard(board); // Create a Board object
+	int currentPlayer = 1; // 1 = white, 2 = black
+	Board chessBoard(board);
 	
 	// Move recommender with depth of 2 as asked
 	MoveRecommender recommender(chessBoard, 2);
+	
+	// Before game starts
+	recommender.calculateMoves(true);
+	std::stringstream initialRecommendationStream;
+	initialRecommendationStream << recommender;
+	std::cout << initialRecommendationStream.str();
+	
+	// I added a small delay so the recommendations will not cut the board
+	std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 	
 	string res = a.getInput();
 	while (res != "exit") {
@@ -138,7 +147,18 @@ int main() {
 
 		a.setCodeResponse(codeResponse);
 		
-		// Add a delay to ensure display updates are visible before next prompt
+		// Calculate recommendations before showing the board
+		bool isWhiteTurn = (currentPlayer == 1);
+		recommender.calculateMoves(isWhiteTurn);
+		
+		// Creates the recommendations
+		std::stringstream recommendationStream;
+		recommendationStream << recommender;
+		std::string recommendationStr = recommendationStream.str();
+
+		std::cout << recommendationStr;
+		
+		// Same delay as before
 		std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 		
 		// Get input for the next move, which also displays the board and messages
