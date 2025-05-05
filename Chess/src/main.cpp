@@ -2,8 +2,11 @@
 #include "Chess.h"
 #include "Board.h"
 #include "ChessExceptions.h"
+#include "MoveRecommender.h"
 #include <cctype>
 #include <iostream>
+#include <thread>
+#include <chrono>
 
 int main() {
 	string board = "RNBQKBNRPPPPPPPP################################pppppppprnbqkbnr";
@@ -12,6 +15,10 @@ int main() {
 	int codeResponse = 0;
 	int currentPlayer = 1; // 1 for white (uppercase), 2 for black (lowercase)
 	Board chessBoard(board); // Create a Board object
+	
+	// Move recommender with depth of 2 as asked
+	MoveRecommender recommender(chessBoard, 2);
+	
 	string res = a.getInput();
 	while (res != "exit") {
 		/* 
@@ -130,6 +137,11 @@ int main() {
 		/**/
 
 		a.setCodeResponse(codeResponse);
+		
+		// Add a delay to ensure display updates are visible before next prompt
+		std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+		
+		// Get input for the next move, which also displays the board and messages
 		res = a.getInput();
 	}
 

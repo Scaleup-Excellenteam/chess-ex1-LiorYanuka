@@ -248,6 +248,54 @@ src/Knight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Knight.cpp.s
 .PHONY : src/Knight.cpp.s
 
+src/Move.obj: src/Move.cpp.obj
+.PHONY : src/Move.obj
+
+# target to build an object file
+src/Move.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Move.cpp.obj
+.PHONY : src/Move.cpp.obj
+
+src/Move.i: src/Move.cpp.i
+.PHONY : src/Move.i
+
+# target to preprocess a source file
+src/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Move.cpp.i
+.PHONY : src/Move.cpp.i
+
+src/Move.s: src/Move.cpp.s
+.PHONY : src/Move.s
+
+# target to generate assembly for a file
+src/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/Move.cpp.s
+.PHONY : src/Move.cpp.s
+
+src/MoveRecommender.obj: src/MoveRecommender.cpp.obj
+.PHONY : src/MoveRecommender.obj
+
+# target to build an object file
+src/MoveRecommender.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/MoveRecommender.cpp.obj
+.PHONY : src/MoveRecommender.cpp.obj
+
+src/MoveRecommender.i: src/MoveRecommender.cpp.i
+.PHONY : src/MoveRecommender.i
+
+# target to preprocess a source file
+src/MoveRecommender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/MoveRecommender.cpp.i
+.PHONY : src/MoveRecommender.cpp.i
+
+src/MoveRecommender.s: src/MoveRecommender.cpp.s
+.PHONY : src/MoveRecommender.s
+
+# target to generate assembly for a file
+src/MoveRecommender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/src/MoveRecommender.cpp.s
+.PHONY : src/MoveRecommender.cpp.s
+
 src/Pawn.obj: src/Pawn.cpp.obj
 .PHONY : src/Pawn.obj
 
@@ -368,6 +416,12 @@ help:
 	@echo ... src/Knight.obj
 	@echo ... src/Knight.i
 	@echo ... src/Knight.s
+	@echo ... src/Move.obj
+	@echo ... src/Move.i
+	@echo ... src/Move.s
+	@echo ... src/MoveRecommender.obj
+	@echo ... src/MoveRecommender.i
+	@echo ... src/MoveRecommender.s
 	@echo ... src/Pawn.obj
 	@echo ... src/Pawn.i
 	@echo ... src/Pawn.s

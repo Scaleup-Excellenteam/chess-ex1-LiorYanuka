@@ -31,7 +31,7 @@ public:
 
         // Insert at the correct position - O(n)
         auto it = _elements.begin();
-        while (it != _elements.end() && _comparator(value, *it) <= 0) {
+        while (it != _elements.end() && _comparator(value, *it) < 0) {
             ++it;
         }
 

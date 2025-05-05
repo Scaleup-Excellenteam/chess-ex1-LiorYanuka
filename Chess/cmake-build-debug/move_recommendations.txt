@@ -1,0 +1,10 @@
+CHESS MOVE RECOMMENDATIONS
+==========================
+
+
+==== RECOMMENDATIONS FOR WHITE ====
+Top recommended moves:
+1. b8c8 (score: 0)
+2. b7c7 (score: 0)
+3. a7c8 (score: 0)
+

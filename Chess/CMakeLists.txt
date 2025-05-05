@@ -33,6 +33,15 @@ add_executable (Chess ""
         src/Queen.cpp
         include/Pawn.h
         src/Pawn.cpp
+        include/PriorityQueue.h
+        include/Move.h
+        src/Move.cpp
+        include/MoveRecommender.h
+        src/MoveRecommender.cpp
+        include/ChessExceptions.h
+        include/Chess.h
+        src/Chess.cpp
+        src/main.cpp
 )
 
 add_subdirectory (include)

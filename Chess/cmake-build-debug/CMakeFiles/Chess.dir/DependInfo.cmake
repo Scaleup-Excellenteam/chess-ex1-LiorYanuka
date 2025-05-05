@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Chess.cpp" "CMakeFiles/Chess.dir/src/Chess.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/Chess.cpp.obj.d"
   "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/King.cpp" "CMakeFiles/Chess.dir/src/King.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/King.cpp.obj.d"
   "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Knight.cpp" "CMakeFiles/Chess.dir/src/Knight.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/Knight.cpp.obj.d"
+  "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Move.cpp" "CMakeFiles/Chess.dir/src/Move.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/Move.cpp.obj.d"
+  "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/MoveRecommender.cpp" "CMakeFiles/Chess.dir/src/MoveRecommender.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/MoveRecommender.cpp.obj.d"
   "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Pawn.cpp" "CMakeFiles/Chess.dir/src/Pawn.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/Pawn.cpp.obj.d"
   "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Queen.cpp" "CMakeFiles/Chess.dir/src/Queen.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/Queen.cpp.obj.d"
   "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/src/Rook.cpp" "CMakeFiles/Chess.dir/src/Rook.cpp.obj" "gcc" "CMakeFiles/Chess.dir/src/Rook.cpp.obj.d"
