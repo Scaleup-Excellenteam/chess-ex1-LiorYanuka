@@ -14,14 +14,12 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_include_directories",
-			"target_sources"
+			"target_include_directories"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"include/CMakeLists.txt",
-			"src/CMakeLists.txt"
+			"include/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -42,15 +40,6 @@
 				"file" : 1,
 				"line" : 1,
 				"parent" : 2
-			},
-			{
-				"file" : 2
-			},
-			{
-				"command" : 2,
-				"file" : 2,
-				"line" : 1,
-				"parent" : 4
 			}
 		]
 	},
@@ -67,7 +56,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/User/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/include"
+					"path" : "C:/Users/LIOR/CLionProjects/AdvancedCPP/chess-ex1-LiorYanuka/Chess/include"
 				}
 			],
 			"language" : "CXX",
@@ -88,8 +77,10 @@
 				10,
 				12,
 				14,
-				15,
-				16
+				17,
+				19,
+				22,
+				23
 			]
 		}
 	],
@@ -133,7 +124,12 @@
 				7,
 				9,
 				11,
-				13
+				13,
+				15,
+				16,
+				18,
+				20,
+				21
 			]
 		},
 		{
@@ -147,8 +143,10 @@
 				10,
 				12,
 				14,
-				15,
-				16
+				17,
+				19,
+				22,
+				23
 			]
 		}
 	],
@@ -237,15 +235,52 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 5,
+			"backtrace" : 1,
+			"path" : "include/PriorityQueue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Move.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/main.cpp",
+			"path" : "src/Move.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 5,
+			"backtrace" : 1,
+			"path" : "include/MoveRecommender.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/MoveRecommender.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/ChessExceptions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Chess.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/Chess.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],
